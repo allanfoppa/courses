@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- this line calls aframe -->
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <!-- this line calls the AR.js component to be used for aframe and finds the source of different assets like the description of 3D objects, the camera calibration-->
+    <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+</head>
+<body style='margin : 0px; overflow: hidden;'>
+
+  <a-scene vr-mode-ui="enabled: false" embedded arjs="debugUIEnabled: false;">
+
+    <a-assets>
+      <a-assets-item
+        id="model"
+        src="https://cdn.glitch.com/62f3d369-1b7d-4274-99a8-91dee1839444%2Fmodelo3d.gltf?v=1583887801318"
+      />
+    </a-assets>
+
+    <a-marker present="hiro">
+      <a-entity
+        id="model3d"
+        position="0 0 0"
+        scale="0.1 0.1 0.1"
+        gltf-model="#model"
+      ></a-entity>
+    </a-marker>
+
+    <a-entity camera></a-entity>
+
+  </a-scene>
+
+</body>
+</html>
