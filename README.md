@@ -9,7 +9,7 @@ Welcome to my courses repository who serves as a central hub for a collection of
 ```markdown
 Plataform: Empowerdata
 Description: Build interactive and visually engaging reports and dashboards.
-Topics Covered: Power BI, Figma
+Topics Covered: Power BI and Figma
 Estimated duration or number of hours required to complete the course: N/A
 ```
 
@@ -22,12 +22,25 @@ cd acelerador-power-bi
 ```markdown
 Plataform: Udemy
 Description: AR using markers like image tracking.
-Topics Covered: Augmented reality, JS
+Topics Covered: Augmented reality and JS
 Estimated duration or number of hours required to complete the course: N/A
 ```
 
 ```bash
 cd augmented-reality-with-ar.js
+```
+
+### `Data Analysis with Python`
+
+```markdown
+Plataform: freeCodeCamp
+Description: Fundamentals of data analysis with Python.
+Topics Covered: Python, Analysis, NumPy, Pandas, Data Cleaning, and Visualizations
+Estimated duration or number of hours required to complete the course: 300h
+```
+
+```bash
+cd data-analysis-with-python
 ```
 
 ## How to Use This Repository
