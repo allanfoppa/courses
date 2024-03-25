@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <!-- this line calls aframe -->
+      <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+      <!-- this line calls the AR.js component to be used for aframe and finds the source of different assets like the description of 3D objects, the camera calibration-->
+      <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+  </head>
+  <body style='margin : 0px; overflow: hidden;'>
+
+    <style>
+      .button {
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 7px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 12px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 12px;
+        border: 2px solid rgba(9, 148, 28, 0.541);
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        visibility: hidden;
+      }
+    </style>
+
+    <div style="position: relative; top: 10px; width:100%; text-align: center; z-index: 1;">
+      <button class="button" id="btn1">Pause</button>
+      <button class="button" id="btn2">Play</button>
+    </div>
+
+    <a-scene vr-mode-ui="enabled: false;" embedded arjs="debugUIEnabled: false;">
+
+      <a-assets>
+        <video id="apresentacao" src="https://cdn.glitch.com/e874e0dd-8808-4aab-803b-ba7597f6703a%2Fapresentacao%20do%20curso.mov?v=1587244131434"></video>
+      </a-assets>
+
+      <a-marker present="hiro">
+        <a-video
+          width="1.5"
+          height="1"
+          rotation="-90 0 0"
+          position="0 0 0"
+          src="#apresentacao">
+        </a-video>
+      </a-marker>
+
+      <a-entity camera></a-entity>
+
+    </a-scene>
+
+  </body>
+
+  <script>
+
+    var m = document.querySelector("a-marker")
+
+    m.addEventListener("markerFound", (e) => {
+      var v = document.querySelector('#apresentacao').play();
+      var btn1 = document.querySelector("#btn1").style.visibility = "visible";
+      var btn2 = document.querySelector("#btn2").style.visibility = "visible";
+    })
+
+    m.addEventListener("markerLost", (e) => {
+      var v = document.querySelector('#apresentacao').pause();
+      var btn1 = document.querySelector("#btn1").style.visibility = "hidden";
+      var btn2 = document.querySelector("#btn2").style.visibility = "hidden";
+    })
+
+    document.getElementById("btn1").addEventListener("click", (e) => {
+      var v = document.querySelector('#apresentacao').pause();
+    })
+
+    document.getElementById("btn2").addEventListener("click", (e) => {
+      var v = document.querySelector('#apresentacao').play();
+    })
+
+  </script>
+
+</html>

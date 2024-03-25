@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- this line calls aframe -->
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <!-- this line calls the AR.js component to be used for aframe and finds the source of different assets like the description of 3D objects, the camera calibration-->
+    <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+</head>
+<body style='margin : 0px; overflow: hidden;'>
+  <a-scene vr-mode-ui="enabled: false;" embedded arjs="debugUIEnabled: false;">
+
+    <a-assets>
+      <a-assets-item id="modelo" src="../../assets/models3d/squirtle/scene.gltf"></a-assets-item>
+    </a-assets>
+
+    <a-marker preset='custom' type='pattern' url='../../assets/patterns/pattern-pokeball.patt'>
+      <a-entity
+        id="produto"
+        position="0 0 0"
+        scale="0.02 0.02 0.02"
+        gltf-model="#modelo">
+      </a-entity>
+    </a-marker>
+
+    <a-entity camera></a-entity>
+
+  </a-scene>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- this line calls aframe -->
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <!-- this line calls the AR.js component to be used for aframe and finds the source of different assets like the description of 3D objects, the camera calibration-->
+    <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+</head>
+<body style='margin : 0px; overflow: hidden;'>
+  <a-scene vr-mode-ui="enabled: false" embedded arjs="debugUIEnabled: false;">
+
+    <a-assets>
+      <img id="photo" src="https://cdn.glitch.global/f96c2d4d-4bc7-4b49-8b5b-d4d02624faf1/Captura%20de%20tela%20de%202022-01-03%2023-06-57.png?v=1649902845699" />
+    </a-assets>
+
+    <a-marker present="hiro">
+      <a-image
+        width="1"
+        height="1"
+        rotation="0 0 0"
+        position="0 0 0"
+        src="#photo"
+      ></a-image>
+    </a-marker>
+
+    <a-entity camera></a-entity>
+
+  </a-scene>
+</body>
+</html>

@@ -17,6 +17,19 @@ Estimated duration or number of hours required to complete the course: N/A
 cd acelerador-power-bi
 ```
 
+### `Augmented reality with AR.js`
+
+```markdown
+Plataform: Udemy
+Description: AR using markers like image tracking.
+Topics Covered: Augmented reality, JS
+Estimated duration or number of hours required to complete the course: N/A
+```
+
+```bash
+cd augmented-reality-with-ar.js
+```
+
 ## How to Use This Repository
 
 Clone the Repository:

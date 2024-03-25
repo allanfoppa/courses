@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <title>Augmented reality with AR.js on Udemy</title>
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  </head>
+  <body>
+
+      <h3 class="mt-3 ms-3"> Augmented reality with AR.js
+        <small class="text-muted">on Udemy
+          <a href="https://www.udemy.com/course/realidade-aumentada-com-arjs/" rel="noopener" target="_blank" class="link-dark">
+            see course here
+          </a>
+        </small>
+      </h3>
+
+      <h5 class="mt-3 ms-3">Course examples</h5>
+      <div class="row container-fluid">
+        <div id="course-examples-container" class="list-group list-group-flush col-xs-12 col-sm-12 col-md-6"></div>
+        <div class="col-md-6 my-3">
+          Links of support:
+          <ul id="course-support-list"></ul>
+        </div>
+      </div>
+
+      <h5 class="mt-3 ms-3">My adaptions</h5>
+      <div class="row container-fluid">
+        <div id="my-examples-container" class="list-group list-group-flush col-xs-12 col-sm-12 col-md-6"></div>
+        <div class="col-md-6 my-3">
+          Links of support:
+          <ul id="my-support-list"></ul>
+        </div>
+      </div>
+
+      <h5 class="mt-3 ms-3">Annotations</h5>
+      <div class="row container-fluid">
+        <div id="my-annotations-container" class="list-group list-group-flush col-xs-12"></div>
+      </div>
+
+      <!-- COURSE CONTAINER DATA -->
+      <script>
+        const courseViews = [
+          {
+            pageName: 'Simple box',
+            pageLink: '/src/views/course/simple-box.html'
+          },
+          {
+            pageName: 'Barcode',
+            pageLink: '/src/views/course/barcode.html'
+          },
+          {
+            pageName: 'Image',
+            pageLink: '/src/views/course/image.html'
+          },
+          {
+            pageName: 'Model 3D',
+            pageLink: '/src/views/course/model3d.html'
+          },
+          {
+            pageName: 'Image tracking',
+            pageLink: '/src/views/course/image-tracking.html'
+          },
+          {
+            pageName: 'Video player',
+            pageLink: '/src/views/course/video-player.html'
+          },
+          {
+            pageName: 'Product',
+            pageLink: '/src/views/course/product.html'
+          },
+        ]
+
+        const courseSupportList = [
+          'https://ar-js-org.github.io/AR.js-Docs/',
+          'http://nftcreator.tripod-digital.co.nz/',
+          'https://au.gmented.com/app/marker/marker.php',
+        ]
+      </script>
+
+      <!-- PERSONAL CONTAINER DATA -->
+      <script>
+
+        const myViews = [
+          {
+            pageName: 'Squirtle with 3D model',
+            pageLink: 'src/views/my/squirtle-with-3d-model.html'
+          },
+        ]
+
+        const mySupportList = [
+
+        ]
+      </script>
+
+      <script>
+        const annotations = [
+          `vr-mode-ui="enable: false" = Desativa o modo VR`,
+          `arjs="debugUIEnabled: false;" - Desativa o modo debug`,
+          `a-entity camera - Possibilita diversos marcadores`,
+          `a-assets - Carrega os assets da aplicação`,
+          `a-marker present="" - O marcador em que a camera vai ser apontado`,
+          `a-image - A foto ou modelo 3D que vai ser mostrado quando a camera focar no marcador`,
+          `a-assets-item - Para lidar com modelos 3D`,
+        ]
+      </script>
+
+      <!-- POPULATE SCRIPTS -->
+      <script>
+
+        const populateSupportLinks = ({
+          listName,
+          listLinks
+        }) => {
+          let list = document.getElementById(listName)
+
+          for (const iterator of listLinks) {
+            list.insertAdjacentHTML(
+              'afterbegin',
+              `<li>
+                <a href="${iterator}" target="_blank" class="link-dark">
+                  ${iterator}
+                </a>
+              </li>`
+            )
+          }
+        }
+
+        const populateExamplesLinks = ({
+          listName,
+          listViews
+        }) => {
+          let list = document.getElementById(listName)
+
+          for (const iterator of listViews) {
+            list.insertAdjacentHTML(
+              'afterbegin',
+              `<a href="${iterator.pageLink}" class="list-group-item list-group-item-action">
+                ${iterator.pageName}
+              </a>`
+            )
+          }
+        }
+
+        const populateAnnotations = ({
+          listNotes,
+          annotations
+        }) => {
+          let list = document.getElementById(listNotes)
+
+          for (const iterator of annotations) {
+            list.insertAdjacentHTML(
+              'afterbegin',
+              `<span class="list-group-item list-group-item-action">
+                ${iterator}
+              </span>`
+            )
+          }
+        }
+
+        document.addEventListener("DOMContentLoaded", () => {
+            populateExamplesLinks ({
+              listName: 'course-examples-container',
+              listViews: courseViews
+            })
+            populateExamplesLinks ({
+              listName: 'my-examples-container',
+              listViews: myViews
+            })
+            populateSupportLinks ({
+              listName: 'course-support-list',
+              listLinks: courseSupportList
+            })
+            populateSupportLinks ({
+              listName: 'my-support-list',
+              listLinks: mySupportList
+            })
+            populateAnnotations ({
+              listNotes: 'my-annotations-container',
+              annotations
+            })
+        })
+
+      </script>
+  </body>
+</html>
