@@ -43,6 +43,19 @@ Estimated duration or number of hours required to complete the course: 300h
 cd data-analysis-with-python
 ```
 
+### `Data Science Visualização de dados com Python`
+
+```markdown
+Plataform: Udemy
+Description: Build data visualizations using the Python programming language and Pyplot library.
+Topics Covered: Python, Matplotlib and Use cases
+Estimated duration or number of hours required to complete the course: 1h
+```
+
+```bash
+cd data-science-visualizacao-de-dados-com-python
+```
+
 ## How to Use This Repository
 
 Clone the Repository:
