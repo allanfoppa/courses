@@ -82,6 +82,19 @@ Estimated duration or number of hours required to complete the course: N/A
 cd formacao-angular-alura
 ```
 
+### `Formação Typescript`
+
+```markdown
+Plataform: Alura
+Description: Learning the concepts of Typescript
+Topics Covered: Typescript
+Estimated duration or number of hours required to complete the course: N/A
+```
+
+```bash
+cd formacao-angular-alura
+```
+
 ## How to Use This Repository
 
 Clone the Repository:
