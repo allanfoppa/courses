@@ -95,6 +95,19 @@ Estimated duration or number of hours required to complete the course: N/A
 cd formacao-angular-alura
 ```
 
+### `iFood dev week`
+
+```markdown
+Plataform: DIO
+Description: Three practical lives about how Net Promoter Score (NPS) analysis. Using Python and AI to analyse of comments sentiments.
+Topics Covered: Python, OpenAI, Pandas, Matplotlib, NPS case
+Estimated duration or number of hours required to complete the course: N/A
+```
+
+```bash
+cd ifood-dev-week
+```
+
 ## How to Use This Repository
 
 Clone the Repository:
