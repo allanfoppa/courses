@@ -134,6 +134,19 @@ Estimated duration or number of hours required to complete the course: 2,5h
 cd intro-ar-with-webxr-and-three-js
 ```
 
+### `Pytest learn at Microsoft`
+
+```markdown
+Plataform: Microsoft
+Description: Create custom Pytest fixtures for reusable code and enhance multi-input testing with parameterization.
+Topics Covered: Python and Pytest
+Estimated duration or number of hours required to complete the course: 20min
+```
+
+```bash
+cd pytest-learn
+```
+
 ## How to Use This Repository
 
 Clone the Repository:
