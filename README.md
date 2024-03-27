@@ -121,6 +121,19 @@ Estimated duration or number of hours required to complete the course: N/A
 cd immersive-ar-session-using-webxr
 ```
 
+### `Intro AR with WebXR and Three.js`
+
+```markdown
+Plataform: Udemy
+Description: The basics of how to create simple augmented reality experiences on the web and a basic understanding of how to design and code 3D experiences.
+Topics Covered: AR and ThreeJS
+Estimated duration or number of hours required to complete the course: 2,5h
+```
+
+```bash
+cd intro-ar-with-webxr-and-three-js
+```
+
 ## How to Use This Repository
 
 Clone the Repository:
