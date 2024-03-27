@@ -69,6 +69,19 @@ Estimated duration or number of hours required to complete the course: N/A
 cd docker-criando-e-gerenciando-containers
 ```
 
+### `Formação Angular Alura`
+
+```markdown
+Plataform: Alura
+Description: Learning the concepts of the Angular framework
+Topics Covered: Angular, Jasmine and Karma
+Estimated duration or number of hours required to complete the course: N/A
+```
+
+```bash
+cd formacao-angular-alura
+```
+
 ## How to Use This Repository
 
 Clone the Repository:
