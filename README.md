@@ -56,6 +56,19 @@ Estimated duration or number of hours required to complete the course: 1h
 cd data-science-visualizacao-de-dados-com-python
 ```
 
+### `Docker criando e gerenciando containers`
+
+```markdown
+Plataform: Alura
+Description: Build and run distributed applications in containers.
+Topics Covered: Docker
+Estimated duration or number of hours required to complete the course: N/A
+```
+
+```bash
+cd docker-criando-e-gerenciando-containers
+```
+
 ## How to Use This Repository
 
 Clone the Repository:
