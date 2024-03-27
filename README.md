@@ -108,6 +108,19 @@ Estimated duration or number of hours required to complete the course: N/A
 cd ifood-dev-week
 ```
 
+### `Immersive AR session using WebXR`
+
+```markdown
+Plataform: ARCore
+Description: A simple immersive AR application using WebXR.
+Topics Covered: AR, WebGL and WebXR Device API
+Estimated duration or number of hours required to complete the course: N/A
+```
+
+```bash
+cd immersive-ar-session-using-webxr
+```
+
 ## How to Use This Repository
 
 Clone the Repository:
