@@ -56,6 +56,21 @@ Estimated duration or number of hours required to complete the course: 1h
 cd data-science-visualizacao-de-dados-com-python
 ```
 
+### `DIO`
+
+#### `Formação TypeScript Fullstack Developer`
+
+```markdown
+Plataform: DIO
+Description: Desenvolvimento com Typescript no Front-End com React e para o Back-End com Node.
+Topics Covered: TypeScript, Node
+Estimated duration or number of hours required to complete the course: 44h
+```
+
+```bash
+cd digital-innovation-one/formacao-typescript-fullstack-developer
+```
+
 ### `Docker criando e gerenciando containers`
 
 ```markdown
