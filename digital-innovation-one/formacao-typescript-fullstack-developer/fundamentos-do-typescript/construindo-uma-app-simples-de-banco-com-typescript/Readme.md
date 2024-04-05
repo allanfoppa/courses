@@ -2,6 +2,8 @@
 
 desenvolvido por [Nathally Souza](https://github.com/nathyts)
 
+adaptado por [Allan Foppa](https://github.com/allanfoppa)
+
 ## Projeto desenvolvido com conceitos básicos de typescript
 
 ### Tecnologias
