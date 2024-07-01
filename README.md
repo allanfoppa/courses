@@ -39,7 +39,7 @@ Estimated duration or number of hours required to complete the course: N/A
 ```
 
 ```bash
-cd alura/formacao-angular-alura
+cd alura/formacao-angular
 ```
 
 #### `Formação Kotlin`
@@ -51,7 +51,7 @@ Estimated duration or number of hours required to complete the course: 32hs
 ```
 
 ```bash
-cd alura/formacao-angular-alura
+cd alura/formacao-kotlin
 ```
 
 ### `ARCORE`
@@ -106,6 +106,18 @@ Estimated duration or number of hours required to complete the course: N/A
 
 ```bash
 cd empowerdata/acelerador-power-bi
+```
+
+#### `Power BI do Zero (2024)`
+
+```markdown
+Description: Build interactive and visually reports and dashboards to sales.
+Topics Covered: Power BI
+Estimated duration or number of hours required to complete the course: N/A
+```
+
+```bash
+cd empowerdata/aprenda-power-bi-do-zero-em-apenas-uma-aula-2024
 ```
 
 ### `FREECODECAMP`
