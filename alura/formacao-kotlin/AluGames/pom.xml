@@ -25,7 +25,7 @@
     </repositories>
 
     <build>
-        <sourceDirectory>../../../../../../Downloads/2948-kotlin-alugames-curso1-aula05/2948-kotlin-alugames-curso1-aula05/src/main/kotlin</sourceDirectory>
+        <sourceDirectory>src/main/kotlin/br/com/alura/alugames</sourceDirectory>
         <testSourceDirectory>src/test/kotlin</testSourceDirectory>
         <plugins>
             <plugin>
