@@ -30,18 +30,6 @@ Estimated duration or number of hours required to complete the course: N/A
 cd alura/formacao-angular
 ```
 
-#### `Formação Typescript`
-
-```markdown
-Description: Learning the concepts of Typescript
-Topics Covered: Typescript
-Estimated duration or number of hours required to complete the course: N/A
-```
-
-```bash
-cd alura/formacao-angular
-```
-
 #### `Formação Kotlin`
 
 ```markdown
@@ -54,16 +42,16 @@ Estimated duration or number of hours required to complete the course: 32hs
 cd alura/formacao-kotlin
 ```
 
-#### `Formação Kotlin`
+#### `Formação Typescript`
 
 ```markdown
-Description: Learning the concepts of Kotlin
-Topics Covered: Kotlin, variables, loops, conditionals, lists, exceptions, persistence, JPA e Hibernate.
-Estimated duration or number of hours required to complete the course: 32hs
+Description: Learning the concepts of Typescript
+Topics Covered: Typescript
+Estimated duration or number of hours required to complete the course: N/A
 ```
 
 ```bash
-cd alura/formacao-angular-alura
+cd alura/formacao-typescript
 ```
 
 ### `ARCORE`
