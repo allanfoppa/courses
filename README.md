@@ -39,7 +39,19 @@ Estimated duration or number of hours required to complete the course: N/A
 ```
 
 ```bash
-cd alura/formacao-angular-alura
+cd alura/formacao-angular
+```
+
+#### `Formação Kotlin`
+
+```markdown
+Description: Learning the concepts of Kotlin
+Topics Covered: Kotlin, variables, loops, conditionals, lists, exceptions, persistence, JPA e Hibernate.
+Estimated duration or number of hours required to complete the course: 32hs
+```
+
+```bash
+cd alura/formacao-kotlin
 ```
 
 #### `Formação Kotlin`
@@ -106,6 +118,18 @@ Estimated duration or number of hours required to complete the course: N/A
 
 ```bash
 cd empowerdata/acelerador-power-bi
+```
+
+#### `Power BI do Zero (2024)`
+
+```markdown
+Description: Build interactive and visually reports and dashboards to sales.
+Topics Covered: Power BI
+Estimated duration or number of hours required to complete the course: N/A
+```
+
+```bash
+cd empowerdata/aprenda-power-bi-do-zero-em-apenas-uma-aula-2024
 ```
 
 ### `FREECODECAMP`
