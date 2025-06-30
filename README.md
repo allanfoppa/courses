@@ -54,6 +54,20 @@ Estimated duration or number of hours required to complete the course: N/A
 cd alura/formacao-typescript
 ```
 
+### `CYPRESS`
+
+#### `Real World Testing with Cypress`
+
+```markdown
+Description: Learning the concepts of Cypress
+Topics Covered: E2E, Commands, Fixtures
+Estimated duration or number of hours required to complete the course: N/A
+```
+
+```bash
+cd alura/cypress/cypress-realworld-testing-course-app
+```
+
 ### `ARCORE`
 
 #### `Immersive AR session using WebXR`
