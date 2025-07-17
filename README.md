@@ -134,6 +134,20 @@ Estimated duration or number of hours required to complete the course: N/A
 cd empowerdata/aprenda-power-bi-do-zero-em-apenas-uma-aula-2024
 ```
 
+### `FLUTTER`
+
+#### `My first Flutter App`
+
+```markdown
+Description: Introduction to Flutter by building a simple mobile application, covering the basics of widgets, layouts, and state management.
+Topics Covered: Flutter
+Estimated duration or number of hours required to complete the course: N/A
+```
+
+```bash
+cd flutter/my_first_flutter_app
+```
+
 ### `FREECODECAMP`
 
 #### `Data Analysis with Python`
